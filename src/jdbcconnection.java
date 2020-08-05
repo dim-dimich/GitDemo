@@ -32,6 +32,10 @@ public class jdbcconnection {
 			System.out.println(rs.getInt("id"));
 			System.out.println(rs.getString("location"));
 			System.out.println(rs.getInt("age"));
+			
+			// Git test 1
+			System.out.println(rs.getInt("GitDemo1"));
+			System.out.println(rs.getInt("GitDemo2"));
 		}
 
 	}
