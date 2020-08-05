@@ -33,15 +33,19 @@ public class jdbcconnection {
 			System.out.println(rs.getString("location"));
 			System.out.println(rs.getInt("age"));
 			
-			// Git test 1
+			// Dev 2 code
 			System.out.println(rs.getInt("GitDemo1"));
 			System.out.println(rs.getInt("GitDemo2"));
 			
-			// Dev 2 code
+			// Dev 1 code
 			System.out.println(rs.getInt("GitX1"));
-			System.out.println(rs.getInt("GitX1"));
+			System.out.println(rs.getInt("GitX2"));
 		}
 
+	}
+	
+	public void gitTest() {
+		System.out.println("Dev2 - 1");
 	}
 
 }
