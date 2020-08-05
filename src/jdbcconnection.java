@@ -47,5 +47,9 @@ public class jdbcconnection {
 	public void gitTest() {
 		System.out.println("Dev2 - 1");
 	}
+	
+	public void gitTestA( ) {
+		System.out.println("Dev1 - 1");
+	}
 
 }
