@@ -36,6 +36,10 @@ public class jdbcconnection {
 			// Git test 1
 			System.out.println(rs.getInt("GitDemo1"));
 			System.out.println(rs.getInt("GitDemo2"));
+			
+			// Dev 2 code
+			System.out.println(rs.getInt("GitX1"));
+			System.out.println(rs.getInt("GitX1"));
 		}
 
 	}
